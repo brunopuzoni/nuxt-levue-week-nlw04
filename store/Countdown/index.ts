@@ -5,7 +5,7 @@ import {
   CountdownMutationsInterface,
 } from './types';
 
-const MINUTES = 25;
+const MINUTES = 0.05;
 
 export const state = (): CountdownState => ({
   time: MINUTES * 60,
